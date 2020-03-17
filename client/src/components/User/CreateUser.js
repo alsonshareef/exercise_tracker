@@ -9,7 +9,7 @@ export default class CreateUser extends Component {
     };
   }
 
-  /* On Change Handlers */
+  /* On-change Handlers */
   onUsernameChange = event => {
     this.setState({
       username: event.target.value

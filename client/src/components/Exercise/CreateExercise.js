@@ -27,7 +27,7 @@ export default class CreateExercise extends Component {
     });
   }
 
-  /* On Change Handlers */
+  /* On-change Handlers */
   onUsernameChange = event => {
     this.setState({
       username: event.target.value
